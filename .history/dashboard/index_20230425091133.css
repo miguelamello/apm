@@ -1,0 +1,9 @@
+@media screen {
+
+	html,
+
+}
+
+@media print {
+	* { display: none; }
+}

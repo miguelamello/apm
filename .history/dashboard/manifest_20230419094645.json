@@ -1,0 +1,12 @@
+{
+  "name": "APM | Application Performance Management",
+  "short_name": "APM",
+  "start_url": "/index.html",
+  "id": "/index.html",
+  "description": "Application Performance Management",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#FFFFFF",
+  "background_color": "#000080",
+  "icons": []
+}
