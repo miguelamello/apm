@@ -12,6 +12,7 @@
     "@mui/material": "^5.12.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^9.1.2",
+    "chart.js": "^4.2.1",
     "cirrus-ui": "^0.7.1",
     "cleave.js": "^1.6.0",
     "comtele-sdk": "^1.1.6",

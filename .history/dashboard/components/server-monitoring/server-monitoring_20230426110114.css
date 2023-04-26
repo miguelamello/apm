@@ -1,0 +1,11 @@
+@media screen {
+
+  .chart-container {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+  }
+  
+
+}
