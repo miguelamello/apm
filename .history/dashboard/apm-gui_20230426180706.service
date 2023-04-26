@@ -1,0 +1,28 @@
+#
+# Systemd service configuration file for the apm-dashboard service. 
+# Under Unix/Linux servers that use Systemd, it's a great 
+# way to configure the apm-dashboard service.
+# 
+# Usage: 
+# systemdctl status apm-dashboard
+# systemdctl start apm-dashboard
+# systemdctl stop apm-dashboard
+# systemdctl restart apm-dashboard
+#
+
+[Unit]
+Description=apm-dashboard
+
+[Service]
+User=webmaster
+Group=webmaster
+WorkingDirectory=/home/webmaster/apm/dashboard
+Environment=NODE_ENV=production
+ExecStart=/usr/local/bin/node /home/webmaster/apm/dashboard/dist/index.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+
