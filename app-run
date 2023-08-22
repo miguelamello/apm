@@ -1,5 +1,5 @@
 #!/usr/bin/sh
 # This script is used to run the application
 
-cd src/dist
+cd ~/apm-dashboard-spa/src/dist
 npx http-server -p 9000 
