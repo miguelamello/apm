@@ -14,10 +14,10 @@
 Description=apm-dashboard
 
 [Service]
-User=webmaster
-Group=webmaster
+User=ec2-user
+Group=ec2-user
 WorkingDirectory=/home/ec2-user/apm-dashboard-spa
-Environment=NODE_ENV=production
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
 ExecStart=/home/ec2-user/apm-dashboard-spa/app-run
 Restart=always
 
