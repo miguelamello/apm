@@ -1,0 +1,5 @@
+#!/usr/bin/sh
+# This script is used to run the application
+
+cd src/dist
+npx http-server -p 8080
